@@ -54,7 +54,7 @@ int main() {
             }
         }
        
-        cout << '\n' << "Ìàñèâ: ";
+        cout << '\n' << "Масив: ";
         for (int i = 0; i < n; i++) {
             cout << array2[i] << " ";
         }
