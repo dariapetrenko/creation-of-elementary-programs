@@ -47,8 +47,8 @@ int main() {
             dobutok = dobutok * array[i];
         }
 
-        cout << "Ñóìà â³ä’ºìíèõ åëåìåíò³â ìàñèâó: " << sumaVid << endl;
-        cout << "Äîáóòîê ì³æ ì³í òà ìàêñ: " << dobutok;
+        cout << "Сума від’ємних елементів масиву: " << sumaVid << endl;
+        cout << "Добуток між мін та макс: " << dobutok;
 
         //за зростанням
         int temp;
@@ -62,7 +62,7 @@ int main() {
             }
         }
 
-        cout << '\n' << "Ìàñèâ: ";
+        cout << '\n' << "Масив: ";
         for (int i = 0; i < n; i++) {
             cout << array[i] << " ";
         }
